@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TRPO.Classes;
+using TRPO.Data;
+
+namespace TRPO.Service
+{
+    public class UserService
+    {
+        readonly AppDbContext _db = BaseDbService.Instance.Context;
+
+        public ObservableCollection<User> Users { get; set; } = new();
+
+        public UserService()
+        {
+            GetAll();
+        }
+        public void Add(User user)
+        {
+            var _user = new User
+            {
+                Name = user.Name,
+                Email = user.Email,
+                Login = user.Login,
+                Password = user.Password,
+                CreatedAt = DateTime.Now,
+            };
+            _db.Add<User>(_user);
+        }
+        public int Commit() => _db.SaveChanges();
+
+        public void GetAll()
+        {
+            var users = _db.Users.ToList();
+            Users.Clear();
+            foreach (var user in users)
+            {
+                Users.Add(user);
+            }
+            
+        }
+    }
+}

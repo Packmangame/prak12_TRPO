@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatDarkButton}">
+        <Setter Property="Background" Value="OrangeRed"/>
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+
+    <Style TargetType="TextBox">
+        <Setter Property="AutomationProperties.Name" Value="{Binding RelativeSource={RelativeSource Self}, Path=Name}"/>
+    </Style>
+    
+    <Style TargetType="ListView" BasedOn="{StaticResource MaterialDesignCardsListBox}">
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+
+    <Style TargetType="StackPanel">
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+    
+    
+
+</ResourceDictionary>

@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\pages\\registrationscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\registrationscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\pages\\registrationscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\registrationscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\pages\\mainscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\mainscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\validationrules\\textrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\textrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\trpo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\trpo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\validationrules\\loginrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\loginrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\validationrules\\passwordrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\passwordrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\trpo\\trpo\\trpo\\validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TRPO\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\MainWindow.xaml",
+              "RelativeToolTip": "TRPO\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T17:59:52.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TextRule.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\TextRule.cs",
+              "RelativeDocumentMoniker": "TRPO\\ValidationRules\\TextRule.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\TextRule.cs",
+              "RelativeToolTip": "TRPO\\ValidationRules\\TextRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:52:01.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UI.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Styles\\UI.xaml",
+              "RelativeDocumentMoniker": "TRPO\\Styles\\UI.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Styles\\UI.xaml",
+              "RelativeToolTip": "TRPO\\Styles\\UI.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T17:45:10.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TRPO",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\TRPO.csproj",
+              "RelativeDocumentMoniker": "TRPO\\TRPO.csproj",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\TRPO.csproj",
+              "RelativeToolTip": "TRPO\\TRPO.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-26T17:44:42.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\App.xaml",
+              "RelativeDocumentMoniker": "TRPO\\App.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\App.xaml",
+              "RelativeToolTip": "TRPO\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T17:40:50.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DateRule.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\DateRule.cs",
+              "RelativeDocumentMoniker": "TRPO\\ValidationRules\\DateRule.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\DateRule.cs",
+              "RelativeToolTip": "TRPO\\ValidationRules\\DateRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:27:20.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginRule.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\LoginRule.cs",
+              "RelativeDocumentMoniker": "TRPO\\ValidationRules\\LoginRule.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\LoginRule.cs",
+              "RelativeToolTip": "TRPO\\ValidationRules\\LoginRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:25:30.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PasswordRule.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\PasswordRule.cs",
+              "RelativeDocumentMoniker": "TRPO\\ValidationRules\\PasswordRule.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\PasswordRule.cs",
+              "RelativeToolTip": "TRPO\\ValidationRules\\PasswordRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:21:27.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmailRule.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\EmailRule.cs",
+              "RelativeDocumentMoniker": "TRPO\\ValidationRules\\EmailRule.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\ValidationRules\\EmailRule.cs",
+              "RelativeToolTip": "TRPO\\ValidationRules\\EmailRule.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:20:43.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Pages\\RegistrationScreen.xaml.cs*",
+              "RelativeToolTip": "TRPO\\Pages\\RegistrationScreen.xaml.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T16:59:03.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Pages\\RegistrationScreen.xaml",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\RegistrationScreen.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Pages\\RegistrationScreen.xaml",
+              "RelativeToolTip": "TRPO\\Pages\\RegistrationScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T15:47:01.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Classes\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "TRPO\\Classes\\ObservableObject.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Classes\\ObservableObject.cs",
+              "RelativeToolTip": "TRPO\\Classes\\ObservableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T16:50:29.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "TRPO\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Service\\UserService.cs",
+              "RelativeToolTip": "TRPO\\Service\\UserService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAzwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T15:20:23.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Pages\\MainScreen.xaml",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\MainScreen.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Pages\\MainScreen.xaml",
+              "RelativeToolTip": "TRPO\\Pages\\MainScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T14:48:28.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Pages\\MainScreen.xaml.cs",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\MainScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Pages\\MainScreen.xaml.cs",
+              "RelativeToolTip": "TRPO\\Pages\\MainScreen.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T15:08:46.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Classes\\User.cs",
+              "RelativeDocumentMoniker": "TRPO\\Classes\\User.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\TRPO\\TRPO\\TRPO\\Classes\\User.cs",
+              "RelativeToolTip": "TRPO\\Classes\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T15:02:39.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
