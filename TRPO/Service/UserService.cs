@@ -27,9 +27,11 @@ namespace TRPO.Service
                 Email = user.Email,
                 Login = user.Login,
                 Password = user.Password,
-                CreatedAt = DateTime.Now,
+                CreatedAt = user.CreatedAt,
             };
             _db.Add<User>(_user);
+            Commit();
+            GetAll();
         }
         public int Commit() => _db.SaveChanges();
 

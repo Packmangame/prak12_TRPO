@@ -23,20 +23,18 @@ namespace TRPO.Pages
     public partial class RegistrationScreen : Page
     {
         UserService userService = new ();
-        User user;
+        User user=new();
         bool _isEdit;
-        public RegistrationScreen(User? user = null)
+        public RegistrationScreen(User? _edituser = null)
         {
             InitializeComponent();
-            if (user != null)
+            
+            if (_edituser != null)
             {
-                this.user = user;
+                this.user = _edituser;
                 _isEdit = true;
             }
-            else
-            {
-                user = new User();
-            }
+            
             this.DataContext=user;
         }
 
@@ -48,17 +46,16 @@ namespace TRPO.Pages
             }
             else
             {
-               
                 userService.Add(user);
                 userService.Commit();
             }
             MessageBox.Show("Отлично", "Сообщение", MessageBoxButton.OK);
-            NavigationService.GoBack();
+            NavigationService.Navigate(new MainScreen());
         }
 
         private void GoBack(object sender, RoutedEventArgs e)
         {
-            NavigationService.GoBack();
+            NavigationService.Navigate(new MainScreen());
         }
 
         

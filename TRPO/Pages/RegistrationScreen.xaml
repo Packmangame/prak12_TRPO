@@ -5,13 +5,14 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TRPO.Pages"
       xmlns:valid="clr-namespace:TRPO.ValidationRules"
+      xmlns:materiadDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="RegistrationScreen">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
@@ -21,6 +22,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
@@ -113,7 +115,29 @@
                 </ItemsControl>
             </StackPanel>
 
-           
+            <Label Grid.Row="4" Grid.Column="0" Content="Создано:" />
+            <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Vertical">
+                <DatePicker x:Name="_Date"
+                            materiadDesign:HintAssist.Hint="Дата создания">
+                    <DatePicker.SelectedDate>
+                        <Binding Path="CreatedAt" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <valid:DateRule ValidatesOnTargetUpdated="True"/>
+                                <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </DatePicker.SelectedDate>
+                </DatePicker>
+                <ItemsControl ItemsSource="{Binding ElementName=_Date,Path=(Validation.Errors)}" >
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+
+
         </Grid>
 
         <StackPanel Grid.Row="1" >

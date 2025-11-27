@@ -12,21 +12,17 @@ namespace TRPO.ValidationRules
     {
         public override ValidationResult Validate(object value, CultureInfo cultureInfo)
         {
-            if (value is DateTime dateTime)
+            var input = (value ?? "").ToString();
+            if (!DateTime.TryParse(input, out DateTime dateValue))
             {
-                if (dateTime < DateTime.Now) 
-                {
-                    return new ValidationResult(false, "Дата создания не может быть в прошлом");
-                }
-                if (dateTime > DateTime.Now.AddDays(1))
-                {
-                    return new ValidationResult(false, "Дата создания не может быть в будущем");
-                }
-
-                return ValidationResult.ValidResult;
+                return new ValidationResult(false, "Неверный формат даты");
+            }
+            if (dateValue < DateTime.Today)
+            {
+                return new ValidationResult(false, "Дата не может быть раньше");
             }
 
-            return new ValidationResult(false, "Неверный формат даты");
+            return ValidationResult.ValidResult;
         }
     }
 }

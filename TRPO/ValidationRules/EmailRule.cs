@@ -25,14 +25,14 @@ namespace TRPO.ValidationRules
                 return new ValidationResult(false, "Email должен содержать символ @");
             }
 
-            // Проверка формата email
+            
             var emailRegex = new System.Text.RegularExpressions.Regex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$");
             if (!emailRegex.IsMatch(input))
             {
                 return new ValidationResult(false, "Неверный формат email");
             }
 
-            // Проверка уникальности email
+           
             using (var context = new AppDbContext())
             {
                 if (context.Users.Any(u => u.Email.ToLower() == input.ToLower()))

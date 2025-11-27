@@ -20,7 +20,7 @@ namespace TRPO.ValidationRules
                 return new ValidationResult(false, "Логин должен содержать не менее 5 символов");
             }
 
-            // Проверка уникальности логина
+          
             using (var context = new AppDbContext())
             {
                 if (context.Users.Any(u => u.Login.ToLower() == input.ToLower()))

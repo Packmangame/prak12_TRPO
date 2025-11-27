@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\artur\Desktop\TRPO\TRPO\TRPO\obj\Debug\net8.0-windows\
+C:\Users\st310-08\Documents\Romanov\prak12\TRPO\obj\Debug\net8.0-windows\
 TRPO
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\artur\Desktop\TRPO\TRPO\TRPO\App.xaml
+C:\Users\st310-08\Documents\Romanov\prak12\TRPO\App.xaml
 4758844562
-22855649876
-22-754048585
-231-17146791
+22701025028
+24775205237
+231569142521
 MainWindow.xaml;Pages\MainScreen.xaml;Pages\RegistrationScreen.xaml;Styles\UI.xaml;
 
 False

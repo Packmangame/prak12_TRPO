@@ -27,7 +27,7 @@ namespace TRPO.Pages
         public MainScreen()
         {
             InitializeComponent();
-            
+            UserService.GetAll();
         }
 
         void AddUser(object sender, RoutedEventArgs e)
