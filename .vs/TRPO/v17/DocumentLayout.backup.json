@@ -1,57 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\",
+  "WorkspaceRootPath": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\pages\\registrationscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\registrationscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\pages\\mainscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\pages\\mainscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\mainscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\pages\\registrationscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\registrationscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\pages\\registrationscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\pages\\registrationscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\registrationscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\migrations\\20251127033218_initialdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\migrations\\20251127033218_initialdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\st310-08\\documents\\romanov\\prak12\\trpo\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,80 +70,92 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "20251127033218_initialDb2.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Migrations\\20251127033218_initialDb2.cs",
+              "RelativeDocumentMoniker": "TRPO\\Migrations\\20251127033218_initialDb2.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Migrations\\20251127033218_initialDb2.cs",
+              "RelativeToolTip": "TRPO\\Migrations\\20251127033218_initialDb2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:27:54.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainScreen.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Pages\\MainScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\MainScreen.xaml.cs",
               "RelativeDocumentMoniker": "TRPO\\Pages\\MainScreen.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Pages\\MainScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\MainScreen.xaml.cs",
               "RelativeToolTip": "TRPO\\Pages\\MainScreen.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwBgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T04:43:24.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Classes\\User.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Classes\\User.cs",
               "RelativeDocumentMoniker": "TRPO\\Classes\\User.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Classes\\User.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Classes\\User.cs",
               "RelativeToolTip": "TRPO\\Classes\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T03:56:22.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RegistrationScreen.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
               "RelativeDocumentMoniker": "TRPO\\Pages\\RegistrationScreen.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
               "RelativeToolTip": "TRPO\\Pages\\RegistrationScreen.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAvwDQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAvwC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T03:37:22.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "EmailRule.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\ValidationRules\\EmailRule.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\ValidationRules\\EmailRule.cs",
               "RelativeDocumentMoniker": "TRPO\\ValidationRules\\EmailRule.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\ValidationRules\\EmailRule.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\ValidationRules\\EmailRule.cs",
               "RelativeToolTip": "TRPO\\ValidationRules\\EmailRule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T04:07:51.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T04:07:51.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Service\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "TRPO\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Service\\UserService.cs",
               "RelativeToolTip": "TRPO\\Service\\UserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvyEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T03:58:36.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ObservableObject.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Classes\\ObservableObject.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Classes\\ObservableObject.cs",
               "RelativeDocumentMoniker": "TRPO\\Classes\\ObservableObject.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Classes\\ObservableObject.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Classes\\ObservableObject.cs",
               "RelativeToolTip": "TRPO\\Classes\\ObservableObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,34 +166,33 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "DateRule.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\ValidationRules\\DateRule.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\ValidationRules\\DateRule.cs",
               "RelativeDocumentMoniker": "TRPO\\ValidationRules\\DateRule.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\ValidationRules\\DateRule.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\ValidationRules\\DateRule.cs",
               "RelativeToolTip": "TRPO\\ValidationRules\\DateRule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T04:04:33.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TRPO\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\MainWindow.xaml",
               "RelativeToolTip": "TRPO\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T04:35:34.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T04:35:34.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "RegistrationScreen.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Pages\\RegistrationScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml",
               "RelativeDocumentMoniker": "TRPO\\Pages\\RegistrationScreen.xaml",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Pages\\RegistrationScreen.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml",
               "RelativeToolTip": "TRPO\\Pages\\RegistrationScreen.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-27T03:26:38.088Z",
@@ -185,23 +200,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "MainScreen.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Pages\\MainScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\MainScreen.xaml",
               "RelativeDocumentMoniker": "TRPO\\Pages\\MainScreen.xaml",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Pages\\MainScreen.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\MainScreen.xaml",
               "RelativeToolTip": "TRPO\\Pages\\MainScreen.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T03:26:30.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T03:26:30.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UI.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Styles\\UI.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Styles\\UI.xaml",
               "RelativeDocumentMoniker": "TRPO\\Styles\\UI.xaml",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Styles\\UI.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Styles\\UI.xaml",
               "RelativeToolTip": "TRPO\\Styles\\UI.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-27T03:28:44.458Z",
@@ -209,26 +223,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BaseDbService.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Service\\BaseDbService.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Service\\BaseDbService.cs",
               "RelativeDocumentMoniker": "TRPO\\Service\\BaseDbService.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Service\\BaseDbService.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Service\\BaseDbService.cs",
               "RelativeToolTip": "TRPO\\Service\\BaseDbService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T03:58:34.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T03:58:34.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "TRPO\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\st310-08\\Documents\\Romanov\\prak12\\TRPO\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Data\\AppDbContext.cs",
               "RelativeToolTip": "TRPO\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T03:29:41.479Z",
               "EditorCaption": ""

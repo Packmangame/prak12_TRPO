@@ -13,7 +13,7 @@ namespace TRPO.Data
         public DbSet<User> Users { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-MQ9IAIL;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
         }
 
     }

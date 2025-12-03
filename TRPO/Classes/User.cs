@@ -17,7 +17,7 @@ namespace TRPO.Classes
         string _name;
         string _email;
         string _password;
-        DateTime _createdAt=DateTime.Now;
+        DateTime _createdAt=DateTime.Today;
 
         public long ID
         {
