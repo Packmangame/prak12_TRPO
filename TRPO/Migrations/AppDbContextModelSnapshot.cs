@@ -22,6 +22,40 @@ namespace TRPO.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("TRPO.Classes.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Title = "Пользователь"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Title = "Менеджер"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Title = "Администратор"
+                        });
+                });
+
             modelBuilder.Entity("TRPO.Classes.User", b =>
                 {
                     b.Property<long>("ID")
@@ -49,9 +83,92 @@ namespace TRPO.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
                     b.HasKey("ID");
 
+                    b.HasIndex("RoleId");
+
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1L,
+                            CreatedAt = new DateTime(2025, 12, 4, 0, 0, 0, 0, DateTimeKind.Local),
+                            Email = "romand@gmail.com",
+                            Login = "asd",
+                            Name = "Adolf",
+                            Password = "qwerty1_W",
+                            RoleId = 1
+                        });
+                });
+
+            modelBuilder.Entity("TRPO.Classes.UserProfile", b =>
+                {
+                    b.Property<long>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("ID"));
+
+                    b.Property<string>("AvaterlUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BIO")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("BirthDay")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("UserProfiles");
+                });
+
+            modelBuilder.Entity("TRPO.Classes.User", b =>
+                {
+                    b.HasOne("TRPO.Classes.Role", "Role")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
+                });
+
+            modelBuilder.Entity("TRPO.Classes.UserProfile", b =>
+                {
+                    b.HasOne("TRPO.Classes.User", "User")
+                        .WithOne("Profile")
+                        .HasForeignKey("TRPO.Classes.UserProfile", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("TRPO.Classes.Role", b =>
+                {
+                    b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("TRPO.Classes.User", b =>
+                {
+                    b.Navigation("Profile")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

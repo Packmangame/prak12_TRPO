@@ -10,16 +10,17 @@ namespace TRPO.Classes
 {
     public class UserProfile : ObservableObject
     {
+        static string defaultAvatarPath = System.IO.Path.Combine(AppContext.BaseDirectory, @"SRC\default.jpg");
         long _id;
         long _userID;
         string _phoneNumber;
-        string _avatarUrl;
-        DateTime _birthday;
+        string _avatarUrl= System.IO.Path.Combine(AppContext.BaseDirectory, @"SRC\default.jpg");
+        DateTime _birthday =DateTime.Today;
         string _bio;
 
         User _user;
 
-        string defaultAvatarPath = System.IO.Path.Combine(AppContext.BaseDirectory, @"Src\pr.jpg");
+        
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -38,7 +39,7 @@ namespace TRPO.Classes
 
         public string AvaterlUrl
         {
-            get => _avatarUrl ?? defaultAvatarPath;
+            get => _avatarUrl;
             set
             {
                 _avatarUrl = string.IsNullOrEmpty(value) ? defaultAvatarPath : value;

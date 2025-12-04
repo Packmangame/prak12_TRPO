@@ -16,7 +16,7 @@ namespace TRPO.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-MQ9IAIL;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -27,7 +27,7 @@ namespace TRPO.Data
             );
 
             modelBuilder.Entity<User>().HasData(
-            new User { ID = 1, Login = "asd", Name = "Adolf", Email = "romand@gmail.com", Password = "qwerty1_W", CreatedAt = DateTime.Today, RoleId = 1 }
+            new User {ID=1, Login = "asd", Name = "Adolf", Email = "romand@gmail.com", Password = "qwerty1_W", CreatedAt = DateTime.Today, RoleId = 1 }
             );
 
             modelBuilder.Entity<User>()

@@ -25,7 +25,7 @@
     </Style>
     
     
-    <Style TargetType="ComboBox" >
+    <Style TargetType="ComboBox" BasedOn="{StaticResource MaterialDesignComboBox}">
          <Setter Property="AutomationProperties.Name" Value="{Binding RelativeSource={RelativeSource Self}, Path=Name}"/>
         <Setter Property="HorizontalAlignment" Value="Left"/>
         <Setter Property="HorizontalContentAlignment" Value="Left"/>

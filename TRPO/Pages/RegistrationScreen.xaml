@@ -13,6 +13,7 @@
 
     <Page.Resources>
         <service:RoleService x:Key="RoleService"/>
+        <service:UserService x:Key="user_Service"/>
     </Page.Resources>
 
       <Grid>
@@ -20,116 +21,191 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+        <ScrollViewer VerticalScrollBarVisibility="Visible">
+            <Grid>
 
-        <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
 
-            </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Имя" />
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
+                    <TextBox x:Name="Name">
+                        <TextBox.Text>
+                            <Binding Path="Name" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
+                                    <valid:TextRule />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=Name,Path=(Validation.Errors)}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
 
-            <Label Grid.Row="0" Grid.Column="0" Content="Имя" />
-            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
-                <TextBox x:Name="Name">
-                    <TextBox.Text>
-                        <Binding Path="Name" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                            <Binding.ValidationRules>
-                                <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
-                                <valid:TextRule />
-                            </Binding.ValidationRules>
-                        </Binding>
-                    </TextBox.Text>
-                </TextBox>
-                <ItemsControl ItemsSource="{Binding ElementName=Name,Path=(Validation.Errors)}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-            </StackPanel>
-
-            <Label Grid.Row="1" Grid.Column="0" Content="Почта"/>
-            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
-                <TextBox x:Name="Email" >
-                    <TextBox.Text>
-                        <Binding Path="Email" UpdateSourceTrigger="PropertyChanged">
-                            <Binding.ValidationRules>
-                                <valid:EmailRule ValidatesOnTargetUpdated="True"/>
-                                <valid:EmptySpaceRule />
-                            </Binding.ValidationRules>
-                        </Binding>
-                    </TextBox.Text>
-                </TextBox>
-                <ItemsControl ItemsSource="{Binding ElementName=Email,Path=(Validation.Errors)}" >
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-            </StackPanel>
+                <Label Grid.Row="1" Grid.Column="0" Content="Почта"/>
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+                    <TextBox x:Name="Email" >
+                        <TextBox.Text>
+                            <Binding Path="Email" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <valid:EmailRule ValidatesOnTargetUpdated="True"/>
+                                    <valid:EmptySpaceRule />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=Email,Path=(Validation.Errors)}" >
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
 
 
-            <Label Grid.Row="2" Grid.Column="0" Content="Логин"/>
-            <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Vertical">
-                <TextBox x:Name="Login" >
-                    <TextBox.Text>
-                        <Binding Path="Login" UpdateSourceTrigger="PropertyChanged">
-                            <Binding.ValidationRules>
-                                <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
-                                <valid:LoginRule />
-                            </Binding.ValidationRules>
-                        </Binding>
-                    </TextBox.Text>
-                </TextBox>
-                <ItemsControl ItemsSource="{Binding ElementName=Login,Path=(Validation.Errors)}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-            </StackPanel>
+                <Label Grid.Row="2" Grid.Column="0" Content="Логин"/>
+                <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Vertical">
+                    <TextBox x:Name="Login" >
+                        <TextBox.Text>
+                            <Binding Path="Login" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
+                                    <valid:LoginRule />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=Login,Path=(Validation.Errors)}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
 
-            <Label Grid.Row="3" Grid.Column="0" Content="Пароль" />
-            <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Vertical">
-                <TextBox x:Name="Password1" >
-                    <TextBox.Text>
-                        <Binding Path="Password" UpdateSourceTrigger="PropertyChanged">
-                            <Binding.ValidationRules>
-                                <valid:PasswordRule/>
-                                <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
-                            </Binding.ValidationRules>
-                        </Binding>
-                    </TextBox.Text>
-                </TextBox>
-                <ItemsControl ItemsSource="{Binding ElementName=Password1,Path=(Validation.Errors)}" >
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-            </StackPanel>
+                <Label Grid.Row="3" Grid.Column="0" Content="Пароль" />
+                <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Vertical">
+                    <TextBox x:Name="Password1" >
+                        <TextBox.Text>
+                            <Binding Path="Password" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <valid:PasswordRule/>
+                                    <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=Password1,Path=(Validation.Errors)}" >
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
 
-            <Label Grid.Row="4" Grid.Column="0" Content="Роль"/>
-            <StackPanel Grid.Row=" 4" Grid.Column="1">
-                <ComboBox ItemsSource="{Binding Source={StaticResource RoleService},Path=Roles}"
+                <Label Grid.Row="4" Grid.Column="0" Content="Роль"/>
+                <StackPanel Grid.Row=" 4" Grid.Column="1">
+                    <ComboBox ItemsSource="{Binding Source={StaticResource RoleService},Path=Roles}"
                           DisplayMemberPath="Title"
                           SelectedItem="{Binding Role}"/>
-            </StackPanel>
+                </StackPanel>
+                
+                <Label Grid.Row="5" Grid.Column="0" Content="День рождения" VerticalAlignment="Center"/>
+                <StackPanel Grid.Row="5" Grid.Column="1">
+                    <DatePicker x:Name="_pacientBirthday" Style="{DynamicResource NeonDatePickerStyle}" materiadDesign:HintAssist.Hint="Дата рождения">
+                        <DatePicker.SelectedDate>
+                            <Binding Path="Profile.BirthDay" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
+                                    <valid:DateRule ValidatesOnTargetUpdated="True"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </DatePicker.SelectedDate>
+                    </DatePicker>
+                    <ItemsControl Style="{DynamicResource ErrorValidationStyle}" ItemsSource="{Binding ElementName=_pacientBirthday,Path=(Validation.Errors)}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
 
-        </Grid>
+                <StackPanel Grid.Row="6" Grid.Column="0">
+                    <Image Source="{Binding Profile.AvaterlUrl, UpdateSourceTrigger=PropertyChanged}"
+                           Stretch="Uniform" 
+                           Height="100" Width="100"/>
+                    
 
+                    <Button Content="Выбрать фото" Click="Button_Click"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Row="6" Grid.Column="1" Orientation="Vertical">
+                    <Label Content="БИО"/>
+                    <TextBox x:Name="BIO" TextWrapping="Wrap">
+                        <TextBox.Text>
+                            <Binding Path="Profile.BIO" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=BIO,Path=(Validation.Errors)}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+
+                <Label Grid.Row="7" Grid.Column="0" Content="Телефон:" Style="{DynamicResource BasedLabel}" VerticalAlignment="Center"/>
+                <StackPanel Grid.Row="7" Grid.Column="1" Orientation="Vertical">
+                    <TextBox x:Name="_pacientPhone" Style="{DynamicResource NeonTextBoxStyle}">
+                        <TextBox.Text>
+                            <Binding Path="Profile.Phone" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <valid:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
+                                    <valid:PhoneRule ValidatesOnTargetUpdated="True"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <ItemsControl ItemsSource="{Binding ElementName=_pacientPhone,Path=(Validation.Errors)}" Style="{DynamicResource ErrorValidationStyle}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" />
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </Grid>
+
+        </ScrollViewer>
         <StackPanel Grid.Row="1" >
             <Button Content="Добавить" Click="ADD_Click"/>
             <Button Content="Назад" Click="GoBack"/>

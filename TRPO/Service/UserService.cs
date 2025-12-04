@@ -31,6 +31,7 @@ namespace TRPO.Service
                 CreatedAt = DateTime.Now,
                 RoleId = user.RoleId,
                 Role = user.Role,
+                Profile = user.Profile ?? new UserProfile(),
             };
             _db.Add<User>(_user);
             Commit();

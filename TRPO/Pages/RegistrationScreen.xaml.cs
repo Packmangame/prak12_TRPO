@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Win32;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+
 using TRPO.Classes;
 using TRPO.Service;
 
@@ -23,8 +26,9 @@ namespace TRPO.Pages
     public partial class RegistrationScreen : Page
     {
         UserService userService = new ();
-       RoleService roleService = new ();
+        RoleService roleService = new ();
         User user=new();
+        UserProfile _profile = new();
         bool _isEdit;
         public RegistrationScreen(User? _edituser = null)
         {
@@ -33,16 +37,17 @@ namespace TRPO.Pages
             if (_edituser != null)
             {
                 this.user = _edituser;
+                this._profile = _edituser.Profile;
                 _isEdit = true;
             }
             else
             {
                 this.user = new User()
                 {
-                    RoleId = 1
+                    RoleId = 1,
+                    Profile= _profile,
                 };
             }
-
             this.DataContext=user;
         }
 
@@ -55,9 +60,7 @@ namespace TRPO.Pages
             else
             {
                 userService.Add(user);
-                
             }
-            MessageBox.Show("Отлично", "Сообщение", MessageBoxButton.OK);
             NavigationService.Navigate(new MainScreen());
         }
 
@@ -66,6 +69,14 @@ namespace TRPO.Pages
             NavigationService.Navigate(new MainScreen());
         }
 
-        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Images(*.jpg)|*.jpg|All files(*.*)|*.*";
+            if (openFileDialog.ShowDialog() == true)
+              _profile.AvaterlUrl = openFileDialog.FileName;
+             
+            
+        }
     }
 }
