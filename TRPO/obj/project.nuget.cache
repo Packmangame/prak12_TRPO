@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cqsm3tAS6YE=",
+  "dgSpecHash": "C4VMdMZrO9c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\artur\\Desktop\\Новая папка (2)\\prak12_TRPO\\TRPO\\TRPO.csproj",
+  "projectFilePath": "C:\\Users\\artur\\Desktop\\Новая папка (2)\\TRPO\\TRPO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artur\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\artur\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

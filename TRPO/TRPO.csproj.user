@@ -8,5 +8,8 @@
     <Compile Update="Pages\RegistrationScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\RoleUsersPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

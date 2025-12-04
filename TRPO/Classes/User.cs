@@ -19,6 +19,10 @@ namespace TRPO.Classes
         string _password;
         DateTime _createdAt=DateTime.Today;
 
+        UserProfile _profile;
+        int _roleid;
+        Role _role;
+
         public long ID
         {
             get => _id;
@@ -93,6 +97,34 @@ namespace TRPO.Classes
                 if (_createdAt != value)
                     _createdAt = value;
                 SetProperty(ref _createdAt, value);
+            }
+        }
+
+        public UserProfile Profile
+        {
+            get => _profile;
+            set
+            {
+                _profile = value;
+                SetProperty(ref _profile, value);
+            }
+        }
+        public int RoleId
+        {
+            get => _roleid;
+            set
+            {
+                _roleid = value;
+                SetProperty(ref _roleid, value);
+            }
+        }
+        public Role Role
+        {
+            get => _role;
+            set
+            {
+                _role = value;
+                SetProperty(ref _role, value);
             }
         }
 

@@ -1,0 +1,76 @@
+﻿<Page x:Class="TRPO.Pages.RoleScreen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TRPO.Pages"
+      xmlns:validations="clr-namespace:TRPO.ValidationRules"
+      xmlns:services="clr-namespace:TRPO.Service"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RoleScreen">
+
+    <Page.Resources>
+        <services:RoleService x:Key="role_Service"/>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            
+            <StackPanel Grid.Column="0">
+                
+                <ListView ItemsSource="{Binding Source={StaticResource role_Service},Path=Roles}"
+                          SelectedItem="{Binding SelectedRole,UpdateSourceTrigger=PropertyChanged}"
+                          x:Name="RolesListView"
+                          MouseDoubleClick="ViewUsers_Click"
+                          ScrollViewer.VerticalScrollBarVisibility="Auto">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Title}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+
+
+            <StackPanel Grid.Column="1" x:Name="Add_role_place">
+                <Label>Название роли</Label>
+                <TextBox x:Name="Title">
+                    <TextBox.Text>
+                        <Binding Path="Title">
+                            <Binding.ValidationRules>
+                                <validations:EmptySpaceRule ValidatesOnTargetUpdated="True"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl ItemsSource="{Binding ElementName=Title,Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </Grid>
+        <StackPanel Grid.Column="1" Grid.Row="2">
+            <Button Content="Добавить" Click="Add_Role"/>
+            <Button Content="Назад" Click="Back"/>
+        </StackPanel>
+    </Grid>
+</Page>

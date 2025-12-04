@@ -1,62 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\",
+  "WorkspaceRootPath": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\pages\\mainscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\mainscreen.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\pages\\registrationscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\trpo\\pages\\registrationscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\registrationscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\pages\\registrationscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\trpo\\pages\\registrationscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\registrationscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\migrations\\20251127033218_initialdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\migrations\\20251127033218_initialdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_trpo\\trpo\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\trpo\\pages\\rolescreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\rolescreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\trpo\\pages\\rolescreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\rolescreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\trpo\\pages\\roleuserspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\roleuserspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\trpo\\pages\\roleuserspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\roleuserspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|c:\\users\\artur\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F48763B-5B13-43BA-95CC-BF12F773E521}|TRPO\\TRPO.csproj|solutionrelative:trpo\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,177 +50,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20251127033218_initialDb2.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Migrations\\20251127033218_initialDb2.cs",
-              "RelativeDocumentMoniker": "TRPO\\Migrations\\20251127033218_initialDb2.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Migrations\\20251127033218_initialDb2.cs",
-              "RelativeToolTip": "TRPO\\Migrations\\20251127033218_initialDb2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RegistrationScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "RelativeToolTip": "TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T23:27:54.119Z",
+              "WhenOpened": "2025-12-04T02:02:07.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainScreen.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\MainScreen.xaml.cs",
-              "RelativeDocumentMoniker": "TRPO\\Pages\\MainScreen.xaml.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\MainScreen.xaml.cs",
-              "RelativeToolTip": "TRPO\\Pages\\MainScreen.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwBgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T04:43:24.902Z",
-              "EditorCaption": ""
+              "Title": "RegistrationScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RegistrationScreen.xaml",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\RegistrationScreen.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RegistrationScreen.xaml",
+              "RelativeToolTip": "TRPO\\Pages\\RegistrationScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-04T02:02:05.435Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Classes\\User.cs",
-              "RelativeDocumentMoniker": "TRPO\\Classes\\User.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Classes\\User.cs",
-              "RelativeToolTip": "TRPO\\Classes\\User.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Title": "RoleScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RoleScreen.xaml.cs",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\RoleScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RoleScreen.xaml.cs",
+              "RelativeToolTip": "TRPO\\Pages\\RoleScreen.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T03:56:22.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T01:49:11.278Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegistrationScreen.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
-              "RelativeDocumentMoniker": "TRPO\\Pages\\RegistrationScreen.xaml.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
-              "RelativeToolTip": "TRPO\\Pages\\RegistrationScreen.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAvwC8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T03:37:22.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmailRule.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\ValidationRules\\EmailRule.cs",
-              "RelativeDocumentMoniker": "TRPO\\ValidationRules\\EmailRule.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\ValidationRules\\EmailRule.cs",
-              "RelativeToolTip": "TRPO\\ValidationRules\\EmailRule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T04:07:51.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "TRPO\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Service\\UserService.cs",
-              "RelativeToolTip": "TRPO\\Service\\UserService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwCMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T03:58:36.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ObservableObject.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Classes\\ObservableObject.cs",
-              "RelativeDocumentMoniker": "TRPO\\Classes\\ObservableObject.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Classes\\ObservableObject.cs",
-              "RelativeToolTip": "TRPO\\Classes\\ObservableObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T04:08:37.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DateRule.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\ValidationRules\\DateRule.cs",
-              "RelativeDocumentMoniker": "TRPO\\ValidationRules\\DateRule.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\ValidationRules\\DateRule.cs",
-              "RelativeToolTip": "TRPO\\ValidationRules\\DateRule.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T04:04:33.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "TRPO\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\MainWindow.xaml",
-              "RelativeToolTip": "TRPO\\MainWindow.xaml",
+              "Title": "UI.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Styles\\UI.xaml",
+              "RelativeDocumentMoniker": "TRPO\\Styles\\UI.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Styles\\UI.xaml",
+              "RelativeToolTip": "TRPO\\Styles\\UI.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T04:35:34.24Z"
+              "WhenOpened": "2025-12-04T01:48:49.971Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegistrationScreen.xaml",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml",
-              "RelativeDocumentMoniker": "TRPO\\Pages\\RegistrationScreen.xaml",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml",
-              "RelativeToolTip": "TRPO\\Pages\\RegistrationScreen.xaml",
+              "Title": "RoleScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RoleScreen.xaml",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\RoleScreen.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RoleScreen.xaml",
+              "RelativeToolTip": "TRPO\\Pages\\RoleScreen.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T03:26:38.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T01:43:18.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainScreen.xaml",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\MainScreen.xaml",
-              "RelativeDocumentMoniker": "TRPO\\Pages\\MainScreen.xaml",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Pages\\MainScreen.xaml",
-              "RelativeToolTip": "TRPO\\Pages\\MainScreen.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T03:26:30.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UI.xaml",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Styles\\UI.xaml",
-              "RelativeDocumentMoniker": "TRPO\\Styles\\UI.xaml",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Styles\\UI.xaml",
-              "RelativeToolTip": "TRPO\\Styles\\UI.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T03:28:44.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BaseDbService.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Service\\BaseDbService.cs",
-              "RelativeDocumentMoniker": "TRPO\\Service\\BaseDbService.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Service\\BaseDbService.cs",
-              "RelativeToolTip": "TRPO\\Service\\BaseDbService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RoleUsersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RoleUsersPage.xaml.cs",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\RoleUsersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RoleUsersPage.xaml.cs",
+              "RelativeToolTip": "TRPO\\Pages\\RoleUsersPage.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA2wD0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T03:58:34.215Z"
+              "WhenOpened": "2025-12-04T01:41:11.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleUsersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RoleUsersPage.xaml",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\RoleUsersPage.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\RoleUsersPage.xaml",
+              "RelativeToolTip": "TRPO\\Pages\\RoleUsersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-04T01:40:44.011Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "TRPO\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prak12_TRPO\\TRPO\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "TRPO\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T03:29:41.479Z",
-              "EditorCaption": ""
+              "Title": "MainScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\MainScreen.xaml",
+              "RelativeDocumentMoniker": "TRPO\\Pages\\MainScreen.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\TRPO\\Pages\\MainScreen.xaml",
+              "RelativeToolTip": "TRPO\\Pages\\MainScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-04T01:39:11.774Z"
             }
           ]
         }

@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using TRPO.Classes;
 using TRPO.Data;
 
@@ -11,7 +12,7 @@ namespace TRPO.Service
 {
     public class UserService
     {
-        readonly AppDbContext _db = BaseDbService.Instance.Context;
+         readonly AppDbContext _db = BaseDbService.Instance.Context;
 
         public ObservableCollection<User> Users { get; set; } = new();
 
@@ -27,23 +28,35 @@ namespace TRPO.Service
                 Email = user.Email,
                 Login = user.Login,
                 Password = user.Password,
-                CreatedAt = user.CreatedAt,
+                CreatedAt = DateTime.Now,
+                RoleId = user.RoleId,
+                Role = user.Role,
             };
             _db.Add<User>(_user);
             Commit();
-            GetAll();
+            Users.Add(_user);
         }
         public int Commit() => _db.SaveChanges();
 
         public void GetAll()
         {
-            var users = _db.Users.ToList();
+            var users = _db.Users
+               .Include(u => u.Role)     
+               .Include(u => u.Profile) 
+               .ToList();
             Users.Clear();
             foreach (var user in users)
             {
                 Users.Add(user);
             }
             
+        }
+
+        public void Update(User user)
+        {
+            _db.Users.Update(user);
+            Commit();
+             GetAll();
         }
     }
 }

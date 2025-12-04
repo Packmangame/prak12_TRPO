@@ -23,6 +23,7 @@ namespace TRPO.Pages
     public partial class RegistrationScreen : Page
     {
         UserService userService = new ();
+       RoleService roleService = new ();
         User user=new();
         bool _isEdit;
         public RegistrationScreen(User? _edituser = null)
@@ -34,7 +35,14 @@ namespace TRPO.Pages
                 this.user = _edituser;
                 _isEdit = true;
             }
-            
+            else
+            {
+                this.user = new User()
+                {
+                    RoleId = 1
+                };
+            }
+
             this.DataContext=user;
         }
 
@@ -47,7 +55,7 @@ namespace TRPO.Pages
             else
             {
                 userService.Add(user);
-                userService.Commit();
+                
             }
             MessageBox.Show("Отлично", "Сообщение", MessageBoxButton.OK);
             NavigationService.Navigate(new MainScreen());

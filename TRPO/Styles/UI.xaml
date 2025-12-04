@@ -3,7 +3,7 @@
 
     <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatDarkButton}">
         <Setter Property="Background" Value="OrangeRed"/>
-        <Setter Property="Margin" Value="10"/>
+        <Setter Property="Margin" Value="2"/>
     </Style>
     
 
@@ -25,5 +25,12 @@
     </Style>
     
     
+    <Style TargetType="ComboBox" >
+         <Setter Property="AutomationProperties.Name" Value="{Binding RelativeSource={RelativeSource Self}, Path=Name}"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
 
 </ResourceDictionary>

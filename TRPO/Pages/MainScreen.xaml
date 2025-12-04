@@ -42,15 +42,19 @@
                                 <Label Content="Создан:"/>
                                 <TextBlock Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}"/>
                             </StackPanel>
+                            <StackPanel>
+                                <Label Content="Role:"/>
+                                <TextBlock Text="{Binding Role.Title}"/>
+                            </StackPanel>
                         </StackPanel>
                     </Border>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        <StackPanel Grid.Row="1">
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
             <Button Content="Добавить" Click="AddUser"/>
-            <!--<Button Content="Удалить" Click="DelUser"/>-->
+            <Button Content="Role" Click="UsersRole"/>
         </StackPanel>
 
     </Grid>

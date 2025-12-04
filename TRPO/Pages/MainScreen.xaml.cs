@@ -34,7 +34,10 @@ namespace TRPO.Pages
         {
             NavigationService?.Navigate(new Pages.RegistrationScreen());
         }
-
+        void UsersRole(object sender, RoutedEventArgs e)
+        {
+            NavigationService?.Navigate(new Pages.RoleScreen());
+        }
         void Edit(object sender, RoutedEventArgs e)
         {
             NavigationService?.Navigate(new Pages.RegistrationScreen(user));

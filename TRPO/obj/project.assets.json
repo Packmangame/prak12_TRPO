@@ -5033,11 +5033,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artur\\Desktop\\Новая папка (2)\\prak12_TRPO\\TRPO\\TRPO.csproj",
+      "projectUniqueName": "C:\\Users\\artur\\Desktop\\Новая папка (2)\\TRPO\\TRPO.csproj",
       "projectName": "TRPO",
-      "projectPath": "C:\\Users\\artur\\Desktop\\Новая папка (2)\\prak12_TRPO\\TRPO\\TRPO.csproj",
+      "projectPath": "C:\\Users\\artur\\Desktop\\Новая папка (2)\\TRPO\\TRPO.csproj",
       "packagesPath": "C:\\Users\\artur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artur\\Desktop\\Новая папка (2)\\prak12_TRPO\\TRPO\\obj\\",
+      "outputPath": "C:\\Users\\artur\\Desktop\\Новая папка (2)\\TRPO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\WinPrograms\\VS\\SDK\\NuGetPackages"
