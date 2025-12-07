@@ -13,10 +13,16 @@ namespace TRPO.Data
         public DbSet<User> Users { get; set; }
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<UserInterestGroup> userInterestGroups {get;set;}
+        public DbSet<InterestGroup> interestGroups {get; set; }
+
+
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
+            //optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-MQ9IAIL;Database=Users;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -40,6 +46,21 @@ namespace TRPO.Data
             .HasMany(g => g.Users)
             .WithOne(s => s.Role)
             .HasForeignKey(s => s.RoleId);
+
+            modelBuilder.Entity<UserInterestGroup>()
+                .HasKey(ug => new { ug.UserId, ug.InterestGroupID });
+
+            modelBuilder.Entity<UserInterestGroup>()
+               .HasOne(ug => ug.User)
+               .WithMany(u => u.UserInterestGroups)
+               .HasForeignKey(ug => ug.UserId);
+
+
+            modelBuilder.Entity<UserInterestGroup>()
+                .HasOne(ug => ug.InterestGroup)
+                .WithMany(ig => ig.UserInterestGroups)
+                .HasForeignKey(ug => ug.InterestGroupID);
+
         }
     }
 }

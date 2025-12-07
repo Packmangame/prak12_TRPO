@@ -75,8 +75,9 @@ namespace TRPO.Pages
             openFileDialog.Filter = "Images(*.jpg)|*.jpg|All files(*.*)|*.*";
             if (openFileDialog.ShowDialog() == true)
               _profile.AvaterlUrl = openFileDialog.FileName;
-             
-            
+
+            userService.GetAll();
+            roleService.GetAll();
         }
     }
 }

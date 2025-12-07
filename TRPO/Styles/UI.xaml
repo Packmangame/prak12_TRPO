@@ -24,6 +24,7 @@
         <Setter Property="Margin" Value="10"/>
     </Style>
     
+
     
     <Style TargetType="ComboBox" BasedOn="{StaticResource MaterialDesignComboBox}">
          <Setter Property="AutomationProperties.Name" Value="{Binding RelativeSource={RelativeSource Self}, Path=Name}"/>

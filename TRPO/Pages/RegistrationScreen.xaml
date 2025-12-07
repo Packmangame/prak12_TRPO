@@ -38,6 +38,8 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
+                    
+                    <RowDefinition Height="*"/>
 
                 </Grid.RowDefinitions>
 
@@ -202,6 +204,44 @@
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
+                </StackPanel>
+
+                <StackPanel Grid.Row="8" Grid.ColumnSpan="2">
+                    <!--Листвью для показа к каким группам отностится человек-->
+                    <!--чтото типа
+                    <ListView ItemsSource="{Binding UserService.Users}"
+          MouseDoubleClick="Edit"
+          SelectedItem="{Binding user}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderThickness="1">
+                                    <StackPanel>
+                                        <StackPanel Orientation="Vertical">
+                                            <Label Content="ID"/>
+                                            <TextBlock Text="{Binding ID}"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Vertical">
+                                            <Label Content="Name"/>
+                                            <TextBlock Text="{Binding Name}"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Vertical">
+                                            <Label Content="Login"/>
+                                            <TextBlock Text="{Binding Login}"/>
+                                        </StackPanel>
+                                        <StackPanel>
+                                            <Label Content="Создан:"/>
+                                            <TextBlock Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}"/>
+                                        </StackPanel>
+                                        <StackPanel>
+                                            <Label Content="Role:"/>
+                                            <TextBlock Text="{Binding Role.Title}"/>
+                                        </StackPanel>
+
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>-->
                 </StackPanel>
             </Grid>
 

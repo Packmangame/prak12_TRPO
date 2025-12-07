@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ namespace TRPO.Classes
         string _title;
         string _description;
 
+        ObservableCollection<UserInterestGroup> _userInterestGroups;
         public long ID 
         {
             get => _id;
@@ -40,6 +42,11 @@ namespace TRPO.Classes
                 _description = value;
                 SetProperty(ref _description, value);
             }
+        }
+        public ObservableCollection<UserInterestGroup> UserInterestGroups
+        {
+            get => _userInterestGroups;
+            set => SetProperty(ref _userInterestGroups, value);
         }
     }
 }

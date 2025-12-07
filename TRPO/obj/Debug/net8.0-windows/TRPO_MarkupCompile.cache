@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\st310-08\Documents\Romanov\prak14\TRPO\obj\Debug\net8.0-windows\
+C:\Users\artur\Desktop\prak13\prak12_TRPO\TRPO\obj\Debug\net8.0-windows\
 TRPO
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\st310-08\Documents\Romanov\prak14\TRPO\App.xaml
-6-963684971
-22701025028
-31-1522718921
-231569142521
-MainWindow.xaml;Pages\MainScreen.xaml;Pages\RegistrationScreen.xaml;Pages\RoleScreen.xaml;Pages\RoleUsersPage.xaml;Styles\UI.xaml;
+C:\Users\artur\Desktop\prak13\prak12_TRPO\TRPO\App.xaml
+111844771470
+22855649876
+44168439216
+231-17146791
+AddMemberWindow.xaml;MainWindow.xaml;Pages\EditGroupPage.xaml;Pages\GroupCompoundPage.xaml;Pages\GroupsPage.xaml;Pages\MainScreen.xaml;Pages\RegistrationScreen.xaml;Pages\RoleScreen.xaml;Pages\RoleUsersPage.xaml;SelectUserWindow.xaml;Styles\UI.xaml;
 
 False
 

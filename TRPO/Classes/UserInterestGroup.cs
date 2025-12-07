@@ -9,9 +9,12 @@ namespace TRPO.Classes
     public class UserInterestGroup : ObservableObject
     {
         long _userId;
-        long _interestGroup;
+        long _interestGroupID;
         DateTime _joinedAt;
         bool _isModerator;
+
+        User _user;
+        InterestGroup _interestGroup;
 
         public long UserId {
             get => _userId;
@@ -22,12 +25,12 @@ namespace TRPO.Classes
             }
         }
 
-        public long InterestGroup
+        public long InterestGroupID
         {
-            get => _interestGroup;
+            get => _interestGroupID;
             set {
-                _interestGroup = value;
-                SetProperty(ref _interestGroup, value);
+                _interestGroupID = value;
+                SetProperty(ref _interestGroupID, value);
             }
         }
 
@@ -50,6 +53,18 @@ namespace TRPO.Classes
                 SetProperty(ref _isModerator, value);
             }
 
+        }
+
+        public User User
+        {
+            get => _user;
+            set => SetProperty(ref _user, value);
+        }
+
+        public InterestGroup InterestGroup
+        {
+            get => _interestGroup;
+            set => SetProperty(ref _interestGroup, value);
         }
     }
 }

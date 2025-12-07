@@ -43,9 +43,18 @@ namespace TRPO.Pages
             NavigationService?.Navigate(new Pages.RegistrationScreen(user));
         }
 
-        void DelUser(object sender, RoutedEventArgs e)
+        void ShowUserGroups(object sender, RoutedEventArgs e)
         {
-
+            if (user != null && user.ID > 0)
+            {
+                var groupsPage = new Pages.GroupsPage();
+                groupsPage.SelectUser(user); 
+                NavigationService?.Navigate(groupsPage);
+            }
+            else
+            {
+                MessageBox.Show("Выберите пользователя для просмотра его групп");
+            }
         }
     }
 }

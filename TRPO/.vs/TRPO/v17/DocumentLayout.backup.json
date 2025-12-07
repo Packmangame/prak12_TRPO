@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|c:\\users\\artur\\desktop\\prak13\\prak12_trpo\\trpo\\pages\\groupcompoundpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|solutionrelative:pages\\groupcompoundpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|c:\\users\\artur\\desktop\\prak13\\prak12_trpo\\trpo\\pages\\groupcompoundpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|solutionrelative:pages\\groupcompoundpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|c:\\users\\artur\\desktop\\prak13\\prak12_trpo\\trpo\\addmemberwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|solutionrelative:addmemberwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|c:\\users\\artur\\desktop\\prak13\\prak12_trpo\\trpo\\pages\\groupspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|solutionrelative:pages\\groupspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|c:\\users\\artur\\desktop\\prak13\\prak12_trpo\\trpo\\styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|solutionrelative:styles\\ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|c:\\users\\artur\\desktop\\prak13\\prak12_trpo\\trpo\\pages\\groupspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|solutionrelative:pages\\groupspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|c:\\users\\artur\\desktop\\prak13\\prak12_trpo\\trpo\\pages\\registrationscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D019FD0-12EE-089B-8E85-6088F55EB18B}|TRPO.csproj|solutionrelative:pages\\registrationscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\RegistrationScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\RegistrationScreen.xaml.cs",
+              "RelativeToolTip": "Pages\\RegistrationScreen.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T20:40:36.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupCompoundPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\GroupCompoundPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\GroupCompoundPage.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\GroupCompoundPage.xaml.cs",
+              "RelativeToolTip": "Pages\\GroupCompoundPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAArwDsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T20:36:53.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroupCompoundPage.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\GroupCompoundPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\GroupCompoundPage.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\GroupCompoundPage.xaml*",
+              "RelativeToolTip": "Pages\\GroupCompoundPage.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-07T20:36:18.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GroupsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\GroupsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\GroupsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\GroupsPage.xaml.cs",
+              "RelativeToolTip": "Pages\\GroupsPage.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAawDgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T20:35:23.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UI.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Styles\\UI.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Styles\\UI.xaml",
+              "RelativeToolTip": "Styles\\UI.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-07T19:58:37.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddMemberWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\AddMemberWindow.xaml",
+              "RelativeDocumentMoniker": "AddMemberWindow.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\AddMemberWindow.xaml",
+              "RelativeToolTip": "AddMemberWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-07T19:58:21.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\GroupsPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\GroupsPage.xaml",
+              "ToolTip": "C:\\Users\\artur\\Desktop\\prak13\\prak12_TRPO\\TRPO\\Pages\\GroupsPage.xaml",
+              "RelativeToolTip": "Pages\\GroupsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-07T19:57:41.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

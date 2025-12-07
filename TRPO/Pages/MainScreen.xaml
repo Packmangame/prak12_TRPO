@@ -11,6 +11,7 @@
 
 
     <Grid>
+     
         
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -18,43 +19,49 @@
 
         </Grid.RowDefinitions>
 
-        
-        <ListView ItemsSource="{Binding UserService.Users}"
+       
+            
+            <ListView ItemsSource="{Binding UserService.Users}"
                   MouseDoubleClick="Edit"
-                  SelectedItem="{Binding user}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <Border BorderThickness="1">
-                        <StackPanel>
-                            <StackPanel Orientation="Vertical">
-                                <Label Content="ID"/>
-                                <TextBlock Text="{Binding ID}"/>
-                            </StackPanel>
-                            <StackPanel Orientation="Vertical">
-                                <Label Content="Name"/>
-                                <TextBlock Text="{Binding Name}"/>
-                            </StackPanel>
-                            <StackPanel Orientation="Vertical">
-                                <Label Content="Login"/>
-                                <TextBlock Text="{Binding Login}"/>
-                            </StackPanel>
+                  SelectedItem="{Binding user}"
+                      ScrollViewer.VerticalScrollBarVisibility="Visible">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="1">
                             <StackPanel>
-                                <Label Content="Создан:"/>
-                                <TextBlock Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}"/>
-                            </StackPanel>
-                            <StackPanel>
-                                <Label Content="Role:"/>
-                                <TextBlock Text="{Binding Role.Title}"/>
-                            </StackPanel>
-                        </StackPanel>
-                    </Border>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                                <StackPanel Orientation="Horizontal" >
+                                    <Label Content="ID:"/>
+                                    <TextBlock Text="{Binding ID}" VerticalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel  Orientation="Horizontal">
+                                    <Label Content="Name:"/>
+                                    <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" >
+                                    <Label Content="Login:"/>
+                                    <TextBlock Text="{Binding Login}" VerticalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel  Orientation="Horizontal" >
+                                    <Label Content="Created:"/>
+                                    <TextBlock Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}" VerticalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel  Orientation="Horizontal" >
+                                    <Label Content="Role:"/>
+                                    <TextBlock Text="{Binding Role.Title}" VerticalAlignment="Center"/>
+                                </StackPanel>
 
-        <StackPanel Grid.Row="1" Orientation="Horizontal">
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+               
+        
+       
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Grid.ColumnSpan="2">
             <Button Content="Добавить" Click="AddUser"/>
-            <Button Content="Role" Click="UsersRole"/>
+            <Button Content="Роли" Click="UsersRole"/>
+            <Button Content="Группы" Click="ShowUserGroups"/>
         </StackPanel>
 
     </Grid>

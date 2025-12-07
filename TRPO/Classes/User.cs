@@ -23,6 +23,7 @@ namespace TRPO.Classes
         int _roleid;
         Role _role;
 
+        ObservableCollection<UserInterestGroup> _userInterestGroups;
         public long ID
         {
             get => _id;
@@ -128,6 +129,10 @@ namespace TRPO.Classes
             }
         }
 
-        
+        public ObservableCollection<UserInterestGroup> UserInterestGroups
+        {
+            get => _userInterestGroups;
+            set => SetProperty(ref _userInterestGroups, value);
+        }
     }
 }

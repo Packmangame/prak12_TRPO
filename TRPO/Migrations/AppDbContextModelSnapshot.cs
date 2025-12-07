@@ -22,6 +22,30 @@ namespace TRPO.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("TRPO.Classes.InterestGroup", b =>
+                {
+                    b.Property<long>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("ID"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("Title")
+                        .IsUnique();
+
+                    b.ToTable("interestGroups");
+                });
+
             modelBuilder.Entity("TRPO.Classes.Role", b =>
                 {
                     b.Property<int>("Id")
@@ -96,13 +120,34 @@ namespace TRPO.Migrations
                         new
                         {
                             ID = 1L,
-                            CreatedAt = new DateTime(2025, 12, 4, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedAt = new DateTime(2025, 12, 7, 0, 0, 0, 0, DateTimeKind.Local),
                             Email = "romand@gmail.com",
                             Login = "asd",
                             Name = "Adolf",
                             Password = "qwerty1_W",
                             RoleId = 1
                         });
+                });
+
+            modelBuilder.Entity("TRPO.Classes.UserInterestGroup", b =>
+                {
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("InterestGroupID")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("IsModerator")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("JoinedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("UserId", "InterestGroupID");
+
+                    b.HasIndex("InterestGroupID");
+
+                    b.ToTable("userInterestGroups");
                 });
 
             modelBuilder.Entity("TRPO.Classes.UserProfile", b =>
@@ -149,6 +194,25 @@ namespace TRPO.Migrations
                     b.Navigation("Role");
                 });
 
+            modelBuilder.Entity("TRPO.Classes.UserInterestGroup", b =>
+                {
+                    b.HasOne("TRPO.Classes.InterestGroup", "InterestGroup")
+                        .WithMany("UserInterestGroups")
+                        .HasForeignKey("InterestGroupID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TRPO.Classes.User", "User")
+                        .WithMany("UserInterestGroups")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("InterestGroup");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("TRPO.Classes.UserProfile", b =>
                 {
                     b.HasOne("TRPO.Classes.User", "User")
@@ -160,6 +224,11 @@ namespace TRPO.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("TRPO.Classes.InterestGroup", b =>
+                {
+                    b.Navigation("UserInterestGroups");
+                });
+
             modelBuilder.Entity("TRPO.Classes.Role", b =>
                 {
                     b.Navigation("Users");
@@ -169,6 +238,8 @@ namespace TRPO.Migrations
                 {
                     b.Navigation("Profile")
                         .IsRequired();
+
+                    b.Navigation("UserInterestGroups");
                 });
 #pragma warning restore 612, 618
         }

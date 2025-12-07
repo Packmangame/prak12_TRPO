@@ -32,6 +32,7 @@ namespace TRPO.Service
                 RoleId = user.RoleId,
                 Role = user.Role,
                 Profile = user.Profile ?? new UserProfile(),
+               UserInterestGroups = user.UserInterestGroups,
             };
             _db.Add<User>(_user);
             Commit();
@@ -43,7 +44,9 @@ namespace TRPO.Service
         {
             var users = _db.Users
                .Include(u => u.Role)     
-               .Include(u => u.Profile) 
+               .Include(u => u.Profile)
+               .Include(u => u.UserInterestGroups)
+                  .ThenInclude(uig => uig.InterestGroup)
                .ToList();
             Users.Clear();
             foreach (var user in users)
